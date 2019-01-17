@@ -16,10 +16,45 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Items for buy',
       url: '/list',
-      icon: 'list'
-    }
+      icon: 'basket'
+    },
+    {
+      title: 'Add Items to sell',
+      url: '/list',
+      icon: 'md-add-circle'
+    },
+    {
+      title: 'Advetise with US',
+      url: '/list',
+      icon: 'md-briefcase'
+    },
+    {
+      title: 'Calculator',
+      url: '/home',
+      icon: 'md-calculator'
+    },
+    {
+      title: 'Calender',
+      url: '/home',
+      icon: 'md-calendar'
+    },
+    {
+      title: 'Share',
+      url: '/home',
+      icon: 'md-share'
+    },
+    {
+      title: 'Setting',
+      url: '/home',
+      icon: 'settings'
+    },
+    {
+      title: 'Logout',
+      url: '/login',
+      icon: 'arrow-round-back'
+    },
   ];
 
   constructor(
